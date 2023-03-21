@@ -1,0 +1,58 @@
+body{
+    background-color:#4d3635;
+    color:azure;
+}
+
+.container{
+    align-items: center;
+    display:flex;
+    font-size: x-large;
+    flex-direction: column;  
+    justify-content:center;
+    height: 500px;
+    width: 500px;
+    margin:auto;
+
+    flex:1;
+}
+
+.container > .cake{
+    display:flex;
+    background-color: rgb(255, 161, 39);
+    margin:50px;
+
+    Flex:auto;
+}
+
+.container > .crepe{
+    display:flex;
+    background-color: rgb(255, 161, 39);
+    margin:50px;
+
+    Flex:auto;
+}
+
+.container > .apple{
+    display:flex;
+    background-color: rgb(255, 161, 39);
+    margin:50px;
+
+    Flex:auto;
+}
+
+p{
+    color:azure;
+    font-size:x-large;
+    display:flex;
+    justify-content:center;
+}
+
+h2{
+    color:azure;
+    font-size:xx-large;
+}
+
+li{
+    color:azure;
+    font-size: larger;
+}
