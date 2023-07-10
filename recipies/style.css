@@ -1,6 +1,6 @@
 body{
-    background-color:#4d3635;
-    color:azure;
+    background-color:#6728cc;
+    color:rgb(252, 252, 252);
 }
 
 .container{
@@ -18,7 +18,7 @@ body{
 
 .container > .cake{
     display:flex;
-    background-color: rgb(255, 161, 39);
+    background-color: rgb(169, 39, 255);
     margin:50px;
 
     Flex:auto;
@@ -26,7 +26,7 @@ body{
 
 .container > .crepe{
     display:flex;
-    background-color: rgb(255, 161, 39);
+    background-color: rgb(169, 39, 255);
     margin:50px;
 
     Flex:auto;
@@ -34,25 +34,22 @@ body{
 
 .container > .apple{
     display:flex;
-    background-color: rgb(255, 161, 39);
+    background-color: rgb(169, 39, 255);
     margin:50px;
 
     Flex:auto;
 }
 
 p{
-    color:azure;
     font-size:x-large;
     display:flex;
     justify-content:center;
 }
 
 h2{
-    color:azure;
     font-size:xx-large;
 }
 
 li{
-    color:azure;
     font-size: larger;
 }
