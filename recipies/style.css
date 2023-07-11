@@ -1,51 +1,77 @@
 body{
-    background-color:#6728cc;
+    background-color:#3c1777;
     color:rgb(252, 252, 252);
 }
 
-.container{
-    align-items: center;
+.recipie-container{
     display:flex;
+    flex-direction: row;
     font-size: x-large;
-    flex-direction: column;  
-    justify-content:center;
-    height: 500px;
-    width: 500px;
-    margin:auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 850px;
+    width: auto;
+
+    background-image: url(cheflink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     flex:1;
 }
 
-.container > .cake{
+.recipie-container > .cake{
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(169, 39, 255);
-    margin:50px;
+    width:fit-content;
+    height: 50px;
+    padding: 30px;
+    margin: 10px;
 
-    Flex:auto;
+    Flex: 1;
 }
 
-.container > .crepe{
+.recipie-container > .crepe{
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(169, 39, 255);
-    margin:50px;
+    width:fit-content;
+    height:50px;
+    padding:30px;
+    margin: 10px;
 
-    Flex:auto;
+    Flex: 1;
 }
 
-.container > .apple{
+.recipie-container > .apple{
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(169, 39, 255);
-    margin:50px;
+    width:fit-content;
+    height: 50px;
+    padding: 30px;
+    margin:10px;
 
-    Flex:auto;
+    Flex: 1;
 }
 
 p{
+    display: flex;
     font-size:x-large;
-    display:flex;
     justify-content:center;
 }
-
+h1{
+    display: flex;
+    font-size:xx-large;
+    justify-content: center;
+}
 h2{
     font-size:xx-large;
 }
@@ -53,3 +79,11 @@ h2{
 li{
     font-size: larger;
 }
+.food-pic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+I have just learned the importance/power of a properly labeled div container
+*/
